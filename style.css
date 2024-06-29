@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdddfa;
+  }
+  
+  form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #e12499;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #e12499;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #e12499;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #a70067;
+    border-radius: 5px;
+  }
+  
+  #result {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #e12499;
+    border-radius: 5px;
+    background-color: #fdddfa;
+  }
+  
+  #youngest_dog {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #e12499;
+    border-radius: 5px;
+    background-color: #fdddfa;
+  }
+  

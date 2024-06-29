@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Домашние питомцы</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <h2 align ="center">Домашние питомцы</h2>
+    <label for="name">Имя:</label>
+    <input type="text" id="name">
+    <br>
+    <label for="animal_type">Тип:</label>
+    <select id="animal_type">
+      <option value="собака">Собака</option>
+      <option value="кот">Кот</option>
+      <option value="птица">Птица</option>
+    </select>
+    <br>
+    <label for="age">Возраст:</label>
+    <input type="number" id="age">
+    <br>
+    <button type="button" onclick="createPet()">Добавить питомца</button>
+    <br>
+    <button type="button" onclick="showYoungestDog()">Кличка самой молодой собаки </button>
+  </form>
+  <div id="result"></div>
+  <div id="youngest_dog"></div>
+  <script src="script.js"></script>
+</body>
+</html>
